@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  News.h
 //  Zayl--新闻
 //
 //  Created by 张玉 on 15/8/31.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface News : UITableViewController
 
 @end
-
