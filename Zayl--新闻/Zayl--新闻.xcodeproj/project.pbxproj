@@ -15,6 +15,7 @@
 		2AC6BE6A1B94677600823753 /* Zayl____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6BE691B94677600823753 /* Zayl____UITests.m */; };
 		2AC6BE7D1B94687A00823753 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC6BE7C1B94687A00823753 /* News.storyboard */; };
 		2AC6BE801B94690700823753 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6BE7F1B94690700823753 /* News.m */; };
+		322AB934F5B24EC045390DED /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C97776168A0D602987F1583 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		2AC6BE7C1B94687A00823753 /* News.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
 		2AC6BE7E1B94690700823753 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
 		2AC6BE7F1B94690700823753 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		4C97776168A0D602987F1583 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		56806CF5622DE67AFF218994 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B68040D8306814B86AA81130 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				322AB934F5B24EC045390DED /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,8 @@
 				2AC6BE5D1B94677600823753 /* Zayl--新闻Tests */,
 				2AC6BE681B94677600823753 /* Zayl--新闻UITests */,
 				2AC6BE421B94677600823753 /* Products */,
+				F96432383DA57CB79129255F /* Pods */,
+				894CF382F98272CA2FCC34EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -164,6 +171,23 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
+		894CF382F98272CA2FCC34EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C97776168A0D602987F1583 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F96432383DA57CB79129255F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56806CF5622DE67AFF218994 /* Pods.debug.xcconfig */,
+				B68040D8306814B86AA81130 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -171,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AC6BE6E1B94677600823753 /* Build configuration list for PBXNativeTarget "Zayl--新闻" */;
 			buildPhases = (
+				DF88CC78E62CC45FF3BE276F /* Check Pods Manifest.lock */,
 				2AC6BE3D1B94677600823753 /* Sources */,
 				2AC6BE3E1B94677600823753 /* Frameworks */,
 				2AC6BE3F1B94677600823753 /* Resources */,
+				94620721FB3709434B974A7E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -288,6 +314,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		94620721FB3709434B974A7E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF88CC78E62CC45FF3BE276F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2AC6BE3D1B94677600823753 /* Sources */ = {
@@ -427,6 +486,7 @@
 		};
 		2AC6BE6F1B94677600823753 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56806CF5622DE67AFF218994 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Zayl--新闻/Info.plist";
@@ -438,6 +498,7 @@
 		};
 		2AC6BE701B94677600823753 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B68040D8306814B86AA81130 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Zayl--新闻/Info.plist";
@@ -514,6 +575,7 @@
 				2AC6BE701B94677600823753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AC6BE711B94677600823753 /* Build configuration list for PBXNativeTarget "Zayl--新闻Tests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +584,7 @@
 				2AC6BE731B94677600823753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AC6BE741B94677600823753 /* Build configuration list for PBXNativeTarget "Zayl--新闻UITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +593,7 @@
 				2AC6BE761B94677600823753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
