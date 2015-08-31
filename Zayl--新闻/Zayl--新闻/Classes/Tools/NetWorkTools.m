@@ -16,6 +16,8 @@
         //url
         NSURL *url = [NSURL URLWithString:@"http://c.m.163.com/nc/article/headline/"];
         instance = [[self alloc]initWithBaseURL:url];
+        //添加响应解析的格式 AFN 默认只支持3重反序列化 避免出错 也能直接在SFN 框架里该 不好 破坏源代码
+        instance.responseSerializer.acceptableContentTypes =  [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript",@"text/html", nil];
     });
     return instance;
 }
