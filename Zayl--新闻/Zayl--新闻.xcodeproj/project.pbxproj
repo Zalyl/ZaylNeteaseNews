@@ -15,6 +15,7 @@
 		2AC6BE6A1B94677600823753 /* Zayl____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6BE691B94677600823753 /* Zayl____UITests.m */; };
 		2AC6BE7D1B94687A00823753 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC6BE7C1B94687A00823753 /* News.storyboard */; };
 		2AC6BE801B94690700823753 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6BE7F1B94690700823753 /* News.m */; };
+		2AC6BE831B946D4100823753 /* NetWorkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6BE821B946D4100823753 /* NetWorkTools.m */; };
 		322AB934F5B24EC045390DED /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C97776168A0D602987F1583 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,8 @@
 		2AC6BE7C1B94687A00823753 /* News.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
 		2AC6BE7E1B94690700823753 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
 		2AC6BE7F1B94690700823753 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		2AC6BE811B946D4100823753 /* NetWorkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkTools.h; sourceTree = "<group>"; };
+		2AC6BE821B946D4100823753 /* NetWorkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkTools.m; sourceTree = "<group>"; };
 		4C97776168A0D602987F1583 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		56806CF5622DE67AFF218994 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B68040D8306814B86AA81130 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -167,6 +170,8 @@
 		2AC6BE791B94681B00823753 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				2AC6BE811B946D4100823753 /* NetWorkTools.h */,
+				2AC6BE821B946D4100823753 /* NetWorkTools.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -353,6 +358,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AC6BE831B946D4100823753 /* NetWorkTools.m in Sources */,
 				2AC6BE491B94677600823753 /* AppDelegate.m in Sources */,
 				2AC6BE461B94677600823753 /* main.m in Sources */,
 				2AC6BE801B94690700823753 /* News.m in Sources */,
