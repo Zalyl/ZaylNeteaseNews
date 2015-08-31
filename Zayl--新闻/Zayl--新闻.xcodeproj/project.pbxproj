@@ -7,68 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2AC6BE041B94667300823753 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6BE031B94667300823753 /* main.m */; };
-		2AC6BE071B94667300823753 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6BE061B94667300823753 /* AppDelegate.m */; };
-		2AC6BE0A1B94667300823753 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6BE091B94667300823753 /* ViewController.m */; };
-		2AC6BE0D1B94667300823753 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC6BE0B1B94667300823753 /* Main.storyboard */; };
-		2AC6BE0F1B94667300823753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC6BE0E1B94667300823753 /* Assets.xcassets */; };
-		2AC6BE121B94667300823753 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC6BE101B94667300823753 /* LaunchScreen.storyboard */; };
-		2AC6BE1D1B94667300823753 /* Zayl____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6BE1C1B94667300823753 /* Zayl____Tests.m */; };
-		2AC6BE281B94667400823753 /* Zayl____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6BE271B94667400823753 /* Zayl____UITests.m */; };
+		2AC6BE461B94677600823753 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6BE451B94677600823753 /* main.m */; };
+		2AC6BE491B94677600823753 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6BE481B94677600823753 /* AppDelegate.m */; };
+		2AC6BE4C1B94677600823753 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6BE4B1B94677600823753 /* ViewController.m */; };
+		2AC6BE4F1B94677600823753 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC6BE4D1B94677600823753 /* Main.storyboard */; };
+		2AC6BE511B94677600823753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC6BE501B94677600823753 /* Assets.xcassets */; };
+		2AC6BE541B94677600823753 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC6BE521B94677600823753 /* LaunchScreen.storyboard */; };
+		2AC6BE5F1B94677600823753 /* Zayl____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6BE5E1B94677600823753 /* Zayl____Tests.m */; };
+		2AC6BE6A1B94677600823753 /* Zayl____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC6BE691B94677600823753 /* Zayl____UITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2AC6BE191B94667300823753 /* PBXContainerItemProxy */ = {
+		2AC6BE5B1B94677600823753 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2AC6BDF71B94667300823753 /* Project object */;
+			containerPortal = 2AC6BE391B94677600823753 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2AC6BDFE1B94667300823753;
+			remoteGlobalIDString = 2AC6BE401B94677600823753;
 			remoteInfo = "Zayl--新闻";
 		};
-		2AC6BE241B94667400823753 /* PBXContainerItemProxy */ = {
+		2AC6BE661B94677600823753 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 2AC6BDF71B94667300823753 /* Project object */;
+			containerPortal = 2AC6BE391B94677600823753 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2AC6BDFE1B94667300823753;
+			remoteGlobalIDString = 2AC6BE401B94677600823753;
 			remoteInfo = "Zayl--新闻";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2AC6BDFF1B94667300823753 /* Zayl--新闻.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zayl--新闻.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AC6BE031B94667300823753 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2AC6BE051B94667300823753 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2AC6BE061B94667300823753 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2AC6BE081B94667300823753 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2AC6BE091B94667300823753 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2AC6BE0C1B94667300823753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2AC6BE0E1B94667300823753 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2AC6BE111B94667300823753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2AC6BE131B94667300823753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2AC6BE181B94667300823753 /* Zayl--新闻Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zayl--新闻Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AC6BE1C1B94667300823753 /* Zayl____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Zayl____Tests.m"; sourceTree = "<group>"; };
-		2AC6BE1E1B94667300823753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2AC6BE231B94667400823753 /* Zayl--新闻UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zayl--新闻UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AC6BE271B94667400823753 /* Zayl____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Zayl____UITests.m"; sourceTree = "<group>"; };
-		2AC6BE291B94667400823753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC6BE411B94677600823753 /* Zayl--新闻.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zayl--新闻.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC6BE451B94677600823753 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AC6BE471B94677600823753 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2AC6BE481B94677600823753 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2AC6BE4A1B94677600823753 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2AC6BE4B1B94677600823753 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2AC6BE4E1B94677600823753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AC6BE501B94677600823753 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AC6BE531B94677600823753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AC6BE551B94677600823753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC6BE5A1B94677600823753 /* Zayl--新闻Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zayl--新闻Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC6BE5E1B94677600823753 /* Zayl____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Zayl____Tests.m"; sourceTree = "<group>"; };
+		2AC6BE601B94677600823753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC6BE651B94677600823753 /* Zayl--新闻UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zayl--新闻UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC6BE691B94677600823753 /* Zayl____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Zayl____UITests.m"; sourceTree = "<group>"; };
+		2AC6BE6B1B94677600823753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2AC6BDFC1B94667300823753 /* Frameworks */ = {
+		2AC6BE3E1B94677600823753 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AC6BE151B94667300823753 /* Frameworks */ = {
+		2AC6BE571B94677600823753 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AC6BE201B94667400823753 /* Frameworks */ = {
+		2AC6BE621B94677600823753 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,64 +78,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2AC6BDF61B94667300823753 = {
+		2AC6BE381B94677600823753 = {
 			isa = PBXGroup;
 			children = (
-				2AC6BE011B94667300823753 /* Zayl--新闻 */,
-				2AC6BE1B1B94667300823753 /* Zayl--新闻Tests */,
-				2AC6BE261B94667400823753 /* Zayl--新闻UITests */,
-				2AC6BE001B94667300823753 /* Products */,
+				2AC6BE431B94677600823753 /* Zayl--新闻 */,
+				2AC6BE5D1B94677600823753 /* Zayl--新闻Tests */,
+				2AC6BE681B94677600823753 /* Zayl--新闻UITests */,
+				2AC6BE421B94677600823753 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2AC6BE001B94667300823753 /* Products */ = {
+		2AC6BE421B94677600823753 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2AC6BDFF1B94667300823753 /* Zayl--新闻.app */,
-				2AC6BE181B94667300823753 /* Zayl--新闻Tests.xctest */,
-				2AC6BE231B94667400823753 /* Zayl--新闻UITests.xctest */,
+				2AC6BE411B94677600823753 /* Zayl--新闻.app */,
+				2AC6BE5A1B94677600823753 /* Zayl--新闻Tests.xctest */,
+				2AC6BE651B94677600823753 /* Zayl--新闻UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2AC6BE011B94667300823753 /* Zayl--新闻 */ = {
+		2AC6BE431B94677600823753 /* Zayl--新闻 */ = {
 			isa = PBXGroup;
 			children = (
-				2AC6BE051B94667300823753 /* AppDelegate.h */,
-				2AC6BE061B94667300823753 /* AppDelegate.m */,
-				2AC6BE081B94667300823753 /* ViewController.h */,
-				2AC6BE091B94667300823753 /* ViewController.m */,
-				2AC6BE0B1B94667300823753 /* Main.storyboard */,
-				2AC6BE0E1B94667300823753 /* Assets.xcassets */,
-				2AC6BE101B94667300823753 /* LaunchScreen.storyboard */,
-				2AC6BE131B94667300823753 /* Info.plist */,
-				2AC6BE021B94667300823753 /* Supporting Files */,
+				2AC6BE471B94677600823753 /* AppDelegate.h */,
+				2AC6BE481B94677600823753 /* AppDelegate.m */,
+				2AC6BE4A1B94677600823753 /* ViewController.h */,
+				2AC6BE4B1B94677600823753 /* ViewController.m */,
+				2AC6BE4D1B94677600823753 /* Main.storyboard */,
+				2AC6BE501B94677600823753 /* Assets.xcassets */,
+				2AC6BE521B94677600823753 /* LaunchScreen.storyboard */,
+				2AC6BE551B94677600823753 /* Info.plist */,
+				2AC6BE441B94677600823753 /* Supporting Files */,
 			);
 			path = "Zayl--新闻";
 			sourceTree = "<group>";
 		};
-		2AC6BE021B94667300823753 /* Supporting Files */ = {
+		2AC6BE441B94677600823753 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2AC6BE031B94667300823753 /* main.m */,
+				2AC6BE451B94677600823753 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2AC6BE1B1B94667300823753 /* Zayl--新闻Tests */ = {
+		2AC6BE5D1B94677600823753 /* Zayl--新闻Tests */ = {
 			isa = PBXGroup;
 			children = (
-				2AC6BE1C1B94667300823753 /* Zayl____Tests.m */,
-				2AC6BE1E1B94667300823753 /* Info.plist */,
+				2AC6BE5E1B94677600823753 /* Zayl____Tests.m */,
+				2AC6BE601B94677600823753 /* Info.plist */,
 			);
 			path = "Zayl--新闻Tests";
 			sourceTree = "<group>";
 		};
-		2AC6BE261B94667400823753 /* Zayl--新闻UITests */ = {
+		2AC6BE681B94677600823753 /* Zayl--新闻UITests */ = {
 			isa = PBXGroup;
 			children = (
-				2AC6BE271B94667400823753 /* Zayl____UITests.m */,
-				2AC6BE291B94667400823753 /* Info.plist */,
+				2AC6BE691B94677600823753 /* Zayl____UITests.m */,
+				2AC6BE6B1B94677600823753 /* Info.plist */,
 			);
 			path = "Zayl--新闻UITests";
 			sourceTree = "<group>";
@@ -143,13 +143,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2AC6BDFE1B94667300823753 /* Zayl--新闻 */ = {
+		2AC6BE401B94677600823753 /* Zayl--新闻 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2AC6BE2C1B94667400823753 /* Build configuration list for PBXNativeTarget "Zayl--新闻" */;
+			buildConfigurationList = 2AC6BE6E1B94677600823753 /* Build configuration list for PBXNativeTarget "Zayl--新闻" */;
 			buildPhases = (
-				2AC6BDFB1B94667300823753 /* Sources */,
-				2AC6BDFC1B94667300823753 /* Frameworks */,
-				2AC6BDFD1B94667300823753 /* Resources */,
+				2AC6BE3D1B94677600823753 /* Sources */,
+				2AC6BE3E1B94677600823753 /* Frameworks */,
+				2AC6BE3F1B94677600823753 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -157,68 +157,68 @@
 			);
 			name = "Zayl--新闻";
 			productName = "Zayl--新闻";
-			productReference = 2AC6BDFF1B94667300823753 /* Zayl--新闻.app */;
+			productReference = 2AC6BE411B94677600823753 /* Zayl--新闻.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2AC6BE171B94667300823753 /* Zayl--新闻Tests */ = {
+		2AC6BE591B94677600823753 /* Zayl--新闻Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2AC6BE2F1B94667400823753 /* Build configuration list for PBXNativeTarget "Zayl--新闻Tests" */;
+			buildConfigurationList = 2AC6BE711B94677600823753 /* Build configuration list for PBXNativeTarget "Zayl--新闻Tests" */;
 			buildPhases = (
-				2AC6BE141B94667300823753 /* Sources */,
-				2AC6BE151B94667300823753 /* Frameworks */,
-				2AC6BE161B94667300823753 /* Resources */,
+				2AC6BE561B94677600823753 /* Sources */,
+				2AC6BE571B94677600823753 /* Frameworks */,
+				2AC6BE581B94677600823753 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2AC6BE1A1B94667300823753 /* PBXTargetDependency */,
+				2AC6BE5C1B94677600823753 /* PBXTargetDependency */,
 			);
 			name = "Zayl--新闻Tests";
 			productName = "Zayl--新闻Tests";
-			productReference = 2AC6BE181B94667300823753 /* Zayl--新闻Tests.xctest */;
+			productReference = 2AC6BE5A1B94677600823753 /* Zayl--新闻Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2AC6BE221B94667400823753 /* Zayl--新闻UITests */ = {
+		2AC6BE641B94677600823753 /* Zayl--新闻UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2AC6BE321B94667400823753 /* Build configuration list for PBXNativeTarget "Zayl--新闻UITests" */;
+			buildConfigurationList = 2AC6BE741B94677600823753 /* Build configuration list for PBXNativeTarget "Zayl--新闻UITests" */;
 			buildPhases = (
-				2AC6BE1F1B94667400823753 /* Sources */,
-				2AC6BE201B94667400823753 /* Frameworks */,
-				2AC6BE211B94667400823753 /* Resources */,
+				2AC6BE611B94677600823753 /* Sources */,
+				2AC6BE621B94677600823753 /* Frameworks */,
+				2AC6BE631B94677600823753 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2AC6BE251B94667400823753 /* PBXTargetDependency */,
+				2AC6BE671B94677600823753 /* PBXTargetDependency */,
 			);
 			name = "Zayl--新闻UITests";
 			productName = "Zayl--新闻UITests";
-			productReference = 2AC6BE231B94667400823753 /* Zayl--新闻UITests.xctest */;
+			productReference = 2AC6BE651B94677600823753 /* Zayl--新闻UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2AC6BDF71B94667300823753 /* Project object */ = {
+		2AC6BE391B94677600823753 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = ZY;
 				TargetAttributes = {
-					2AC6BDFE1B94667300823753 = {
+					2AC6BE401B94677600823753 = {
 						CreatedOnToolsVersion = 7.0;
 					};
-					2AC6BE171B94667300823753 = {
+					2AC6BE591B94677600823753 = {
 						CreatedOnToolsVersion = 7.0;
-						TestTargetID = 2AC6BDFE1B94667300823753;
+						TestTargetID = 2AC6BE401B94677600823753;
 					};
-					2AC6BE221B94667400823753 = {
+					2AC6BE641B94677600823753 = {
 						CreatedOnToolsVersion = 7.0;
-						TestTargetID = 2AC6BDFE1B94667300823753;
+						TestTargetID = 2AC6BE401B94677600823753;
 					};
 				};
 			};
-			buildConfigurationList = 2AC6BDFA1B94667300823753 /* Build configuration list for PBXProject "Zayl--新闻" */;
+			buildConfigurationList = 2AC6BE3C1B94677600823753 /* Build configuration list for PBXProject "Zayl--新闻" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -226,37 +226,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 2AC6BDF61B94667300823753;
-			productRefGroup = 2AC6BE001B94667300823753 /* Products */;
+			mainGroup = 2AC6BE381B94677600823753;
+			productRefGroup = 2AC6BE421B94677600823753 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2AC6BDFE1B94667300823753 /* Zayl--新闻 */,
-				2AC6BE171B94667300823753 /* Zayl--新闻Tests */,
-				2AC6BE221B94667400823753 /* Zayl--新闻UITests */,
+				2AC6BE401B94677600823753 /* Zayl--新闻 */,
+				2AC6BE591B94677600823753 /* Zayl--新闻Tests */,
+				2AC6BE641B94677600823753 /* Zayl--新闻UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2AC6BDFD1B94667300823753 /* Resources */ = {
+		2AC6BE3F1B94677600823753 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AC6BE121B94667300823753 /* LaunchScreen.storyboard in Resources */,
-				2AC6BE0F1B94667300823753 /* Assets.xcassets in Resources */,
-				2AC6BE0D1B94667300823753 /* Main.storyboard in Resources */,
+				2AC6BE541B94677600823753 /* LaunchScreen.storyboard in Resources */,
+				2AC6BE511B94677600823753 /* Assets.xcassets in Resources */,
+				2AC6BE4F1B94677600823753 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AC6BE161B94667300823753 /* Resources */ = {
+		2AC6BE581B94677600823753 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AC6BE211B94667400823753 /* Resources */ = {
+		2AC6BE631B94677600823753 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -266,60 +266,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2AC6BDFB1B94667300823753 /* Sources */ = {
+		2AC6BE3D1B94677600823753 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AC6BE0A1B94667300823753 /* ViewController.m in Sources */,
-				2AC6BE071B94667300823753 /* AppDelegate.m in Sources */,
-				2AC6BE041B94667300823753 /* main.m in Sources */,
+				2AC6BE4C1B94677600823753 /* ViewController.m in Sources */,
+				2AC6BE491B94677600823753 /* AppDelegate.m in Sources */,
+				2AC6BE461B94677600823753 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AC6BE141B94667300823753 /* Sources */ = {
+		2AC6BE561B94677600823753 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AC6BE1D1B94667300823753 /* Zayl____Tests.m in Sources */,
+				2AC6BE5F1B94677600823753 /* Zayl____Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AC6BE1F1B94667400823753 /* Sources */ = {
+		2AC6BE611B94677600823753 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AC6BE281B94667400823753 /* Zayl____UITests.m in Sources */,
+				2AC6BE6A1B94677600823753 /* Zayl____UITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2AC6BE1A1B94667300823753 /* PBXTargetDependency */ = {
+		2AC6BE5C1B94677600823753 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2AC6BDFE1B94667300823753 /* Zayl--新闻 */;
-			targetProxy = 2AC6BE191B94667300823753 /* PBXContainerItemProxy */;
+			target = 2AC6BE401B94677600823753 /* Zayl--新闻 */;
+			targetProxy = 2AC6BE5B1B94677600823753 /* PBXContainerItemProxy */;
 		};
-		2AC6BE251B94667400823753 /* PBXTargetDependency */ = {
+		2AC6BE671B94677600823753 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2AC6BDFE1B94667300823753 /* Zayl--新闻 */;
-			targetProxy = 2AC6BE241B94667400823753 /* PBXContainerItemProxy */;
+			target = 2AC6BE401B94677600823753 /* Zayl--新闻 */;
+			targetProxy = 2AC6BE661B94677600823753 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2AC6BE0B1B94667300823753 /* Main.storyboard */ = {
+		2AC6BE4D1B94677600823753 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2AC6BE0C1B94667300823753 /* Base */,
+				2AC6BE4E1B94677600823753 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		2AC6BE101B94667300823753 /* LaunchScreen.storyboard */ = {
+		2AC6BE521B94677600823753 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2AC6BE111B94667300823753 /* Base */,
+				2AC6BE531B94677600823753 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -327,7 +327,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2AC6BE2A1B94667400823753 /* Debug */ = {
+		2AC6BE6C1B94677600823753 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -371,7 +371,7 @@
 			};
 			name = Debug;
 		};
-		2AC6BE2B1B94667400823753 /* Release */ = {
+		2AC6BE6D1B94677600823753 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -409,7 +409,7 @@
 			};
 			name = Release;
 		};
-		2AC6BE2D1B94667400823753 /* Debug */ = {
+		2AC6BE6F1B94677600823753 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -420,7 +420,7 @@
 			};
 			name = Debug;
 		};
-		2AC6BE2E1B94667400823753 /* Release */ = {
+		2AC6BE701B94677600823753 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -431,7 +431,7 @@
 			};
 			name = Release;
 		};
-		2AC6BE301B94667400823753 /* Debug */ = {
+		2AC6BE721B94677600823753 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -443,7 +443,7 @@
 			};
 			name = Debug;
 		};
-		2AC6BE311B94667400823753 /* Release */ = {
+		2AC6BE731B94677600823753 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -455,7 +455,7 @@
 			};
 			name = Release;
 		};
-		2AC6BE331B94667400823753 /* Debug */ = {
+		2AC6BE751B94677600823753 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "Zayl--新闻UITests/Info.plist";
@@ -467,7 +467,7 @@
 			};
 			name = Debug;
 		};
-		2AC6BE341B94667400823753 /* Release */ = {
+		2AC6BE761B94677600823753 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "Zayl--新闻UITests/Info.plist";
@@ -482,40 +482,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2AC6BDFA1B94667300823753 /* Build configuration list for PBXProject "Zayl--新闻" */ = {
+		2AC6BE3C1B94677600823753 /* Build configuration list for PBXProject "Zayl--新闻" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2AC6BE2A1B94667400823753 /* Debug */,
-				2AC6BE2B1B94667400823753 /* Release */,
+				2AC6BE6C1B94677600823753 /* Debug */,
+				2AC6BE6D1B94677600823753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2AC6BE2C1B94667400823753 /* Build configuration list for PBXNativeTarget "Zayl--新闻" */ = {
+		2AC6BE6E1B94677600823753 /* Build configuration list for PBXNativeTarget "Zayl--新闻" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2AC6BE2D1B94667400823753 /* Debug */,
-				2AC6BE2E1B94667400823753 /* Release */,
+				2AC6BE6F1B94677600823753 /* Debug */,
+				2AC6BE701B94677600823753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		2AC6BE2F1B94667400823753 /* Build configuration list for PBXNativeTarget "Zayl--新闻Tests" */ = {
+		2AC6BE711B94677600823753 /* Build configuration list for PBXNativeTarget "Zayl--新闻Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2AC6BE301B94667400823753 /* Debug */,
-				2AC6BE311B94667400823753 /* Release */,
+				2AC6BE721B94677600823753 /* Debug */,
+				2AC6BE731B94677600823753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		2AC6BE321B94667400823753 /* Build configuration list for PBXNativeTarget "Zayl--新闻UITests" */ = {
+		2AC6BE741B94677600823753 /* Build configuration list for PBXNativeTarget "Zayl--新闻UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2AC6BE331B94667400823753 /* Debug */,
-				2AC6BE341B94667400823753 /* Release */,
+				2AC6BE751B94677600823753 /* Debug */,
+				2AC6BE761B94677600823753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2AC6BDF71B94667300823753 /* Project object */;
+	rootObject = 2AC6BE391B94677600823753 /* Project object */;
 }
